@@ -168,6 +168,20 @@ img { max-width: 100%; display: block; }
   font-size: 17px;
 }
 
+/* ---------- Headshot (About section) ---------- */
+
+.headshot {
+  display: block;
+  width: 220px;
+  max-width: 60vw;
+  aspect-ratio: 2906 / 3632;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto 40px;
+  border: 1px solid var(--line);
+  filter: grayscale(100%);
+}
+
 /* ---------- Section shell ---------- */
 
 .section {
